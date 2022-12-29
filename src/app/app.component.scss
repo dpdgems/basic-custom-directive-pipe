@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  width: 40%;
+}
+
+input[type="text"] {
+  width: 50%;
+}
+
+input[type="checkbox"] {
+  margin-left: 2rem;
+  vertical-align: middle;
+}
+
+::ng-deep .highlight {
+  background-color: yellow;
+}
